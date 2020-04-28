@@ -554,6 +554,8 @@ nav.navbar.navbar-default.vertical-nav {
       opacity: 0;
       text-transform: uppercase;
       letter-spacing: 1.5px;
+      top: 50%;
+      transform: translate(0, -50%);
       -moz-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
       -o-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
       -webkit-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
@@ -614,6 +616,8 @@ nav.navbar.navbar-default.vertical-nav {
     nav.navbar.navbar-default.vertical-nav li.active span {
       left: 50px;
       opacity: 1;
+      top: 50%;
+      transform: translate(0, -50%);
       color: #fff; }
     nav.navbar.navbar-default.vertical-nav li:hover span {
       left: 50px;
